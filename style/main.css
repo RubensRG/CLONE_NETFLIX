@@ -52,6 +52,9 @@ header nav a:hover{
     align-items: flex-start;
     animation: animate 17s ease-in-out infinite;
 }
+a { 
+    display: inline-block;
+}
 
 @keyframes animate {
     0%,100%{
