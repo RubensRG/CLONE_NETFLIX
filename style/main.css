@@ -23,11 +23,12 @@ header .container{
     justify-content: space-between;
 }
 
-header .img-logo{
-    margin-left: 5px;
-    margin-top: 8px;
-    margin-bottom: 5px;
-    margin-right: 5px;
+header .logo{
+    margin-left: 10px;
+    margin-block-end: 10px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 30px;
 }
 
 header nav a{
@@ -44,7 +45,7 @@ header nav a:hover{
 .filme-principal{
     font-size: 16px;
     
-    height: 600px;
+    height: 400px;
     background-size:cover;
 
     display: flex;
@@ -56,19 +57,19 @@ header nav a:hover{
 
 @keyframes animate {
     0%,100%{
-        background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("https://www.themoviedb.org/t/p/original/u1aDGhR1ENc8qzp6brbM29ViZfl.jpg");
+        background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)50%), url("../img/fundo1.jpg");
     }
 
     25%{
-        background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/capa-fundo-house.jpg");
+        background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)50%), url("../img/fundo2.jpg");
     }
 
     50%{
-        background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("https://www.themoviedb.org/t/p/original/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg");
+        background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/fundo3.jpg");
     }
 
     75%{
-        background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("https://www.themoviedb.org/t/p/original/hpGkXl6iNdtQLXHS7xiv57N217B.jpg");
+        background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/fundo4.jpg");
     }
 }
 
